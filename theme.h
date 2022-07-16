@@ -1,5 +1,5 @@
 # define ST_FONT "Liberation Mono:pixelsize=12:antialias=true:autohint=true"
-# define ST_ALPHA 1
+# define ST_ALPHA 0.8
 # define ST_FOREGROUND "gray90"
 # define ST_BACKGROUND "black"
 # define ST_CURSORCOLOR "#cccccc"
