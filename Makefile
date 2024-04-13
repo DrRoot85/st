@@ -9,8 +9,14 @@ OBJ = $(SRC:.c=.o)
 
 all: st
 
-config.h:
-	cp config.def.h config.h
+options:
+	@echo dwm build options:
+	@echo "CFLAGS   = ${CFLAGS}"
+	@echo "LDFLAGS  = ${LDFLAGS}"
+	@echo "CC       = ${CC}"
+
+#config.h:
+#	cp config.def.h config.h
 
 .c.o:
 	$(CC) $(STCFLAGS) -c $<
